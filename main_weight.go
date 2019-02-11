@@ -25,8 +25,8 @@ func main() {
 	// hx711.SetGain(128)
 
 	// make sure to use your values from calibration above
-	hx711.AdjustZero = -67408
-	hx711.AdjustScale = -2345
+	hx711.AdjustZero = -67504
+	hx711.AdjustScale = -4000
 
 	var data float64
 	for i := 0; i < 10000; i++ {
